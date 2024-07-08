@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NDTV Food Blog</title>
+  <!--  <link src="/storage/emulated/0/Download/NDTV Food Blog/styles/Untitled-3.css" type="text/css"/>  -->
+   <style>
+       *{
+            background-color:rgb(0,0,255,0.3);
+            box-sizing:border-box;
+            padding:0px;
+            margin:0px;
+      }
+        .main{
+            margin:0 10%;
+            display:grid;
+            grid-template-columns:repeat(4,1fr);
+            grid-auto-rows:minmax(100px,auto);
+
+        }
+        
+        .logo{
+            grid-column:1;
+            grid-row:1;
+            background-color:rgb(255,255,0,0.8);
+            border:thin solid gold;
+        }
+        .title{
+            grid-column:2/5;
+            grid-row:1;
+            background-color:rgb(255,255,0,0.8);
+            border:thin solid goldenrod;
+        }
+        .navi{
+            grid-column:1/2;
+            grid-row:2/7;
+            background-color:rgb(255,255,0,0.8);
+            border:thin solid green;
+        }
+        .articles{
+            grid-column:2/5;
+            grid-row:2/7;
+            background-color:whitesmoke;
+            border:thin solid white;
+        }
+        .addres{
+            border:1px solid yellow;
+            grid-column:1/5;
+            grid-row:7;
+            background-color:rgb(255,255,0,0.8);
+            border:thin solid red;
+        }
+        ul{
+            
+            list-style-type:none;
+            padding:0;
+            margin:0;
+        }
+        li{
+            background-color:rgb(255,255,0,0.8);
+            position:relative;
+            width:100%;
+            height:2em;
+            text-align:center;
+            padding-top:5px;
+        }
+        a{
+            background-color:transparent;
+            text-decoration:none;
+            color:red;
+
+        }
+
+    </style>
+
+</head>
+<body>
+    <div class="main">
+        <div class="logo"><img src=""/></div>
+        <div class="title">
+            <h1 style="background-color:transparent;color:green;text-align:center;">NDTV Food Blog</h1>
+        </div>
+        <nav class="navi">
+            <ul>
+                <li><a href="https:google.co.in" target="article_display">Google</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact</a></li> <!---->
+            </ul>
+        </nav>
+        <iframe class="articles" name="article_display" style="width:100%;height:100%;"></iframe>
+        <div class="addres" ></div>
+
+    </div>
+</body>
+</html>
