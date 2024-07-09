@@ -71,7 +71,13 @@
             color:red;
 
         }
-        @media      
+        @media only screen and (max-width:600px)
+        {
+            #title_image{
+                height:100px;
+                width:100%;
+            }
+        }
 
     </style>
 
@@ -80,7 +86,7 @@
     <div class="main">
         <div class="logo"><img src=""/></div>
         <div class="title">
-            <img style="height:100px;width:500px;" src="main/ndtv title card.png" />
+            <img id="title_image" style="height:100px;width:500px;" src="main/ndtv title card.png" />
                 </div>
         <nav class="navi">
             <ul>
