@@ -9,7 +9,6 @@
  <!--  <link src="/storage/emulated/0/Download/NDTV Food Blog/styles/Untitled-3.css" type="text/css"/>  -->
    <style>
        *{
-            
             box-sizing:border-box;
             padding:0px;
             margin:0px;
@@ -64,8 +63,17 @@
             color:white;
 
         }
+        #title_font{
+            color:aliceblue;
+            font-style: normal;
+            font-variant:small-caps;
+        }
+
         @media only screen and (max-width:600px)
         {
+            *{
+                background-color:none;
+            }
         
                     
         .main{
@@ -83,7 +91,8 @@
         .navi
             {
                 background-color:rgb(0,0,0,0.5);
-                border:0;
+                border:thin solid rgb(0,0,0,0.3);
+
             }
         .articles
             {
@@ -97,10 +106,13 @@
             }
         li{
                 background-color: rgb(0,0,0,0.5);
-                border-bottom:1px solid rgb(255,255,255,0.4);
+                border-bottom:1px solid rgb(0,0,0,0.7);
             }
         a{
                 background-color: transparent;
+                color:white;
+            }
+            i{
                 color:white;
             }
         }
@@ -110,9 +122,10 @@
 </head>
 <body>
     <div class="main">      
-          <div class="title">
-            <img id="title_image" src="./ndtv food blog.jpg" />
-                </div>
+          <div class="title" style="background:linear-gradient(rgb(0,0,0,0.4),rgb(0,0,0,0.8),left);">
+           <!-- <img id="title_image" src="./ndtv food blog.jpg" />-->
+              <h1 id="title_font"style="text-align: center;">ndtv food Blog </h1>
+        </div>
         <nav class="navi">
             <ul>
                 <li><a href="https:google.co.in" target="article_display">Google</a></li>
@@ -129,7 +142,7 @@
             <i class="fa fa-phone" style="margin-left: 130px;">&nbsp;+91 1234567890&nbsp;</i>
         </br>
             <i class="fa fa-envelope" style="margin-left:100px;">&nbsp;ndtvfoodblog<i class="fa fa-at"></i>gmail.com</i>
-            <i class="fa fa-copyright" style="margin-left:150px;">&nbsp;NDTV&nbsp;Licence</i>
+            <i class="fa fa-copyright" style="margin-left:150px;">&nbsp;2024&nbsp;NDTV&nbsp;Licence</i>
         </div>
 
     </div>
