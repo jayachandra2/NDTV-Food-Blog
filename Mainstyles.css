@@ -56,7 +56,7 @@
         }
         #title_font{
             float:right;
-            padding-right:50px;
+            padding-right:150px;
             margin-top:30px;
             color:aliceblue;
             font-style:normal;
@@ -104,6 +104,14 @@
             {
                 width:25%;
                 height:110px;
+            }
+            #title_font{
+                float:right;
+                padding-right:50px;
+                margin-top:30px;
+                color:aliceblue;
+                font-style:normal;
+                font-variant-caps: all-small-caps;
             }
         li{
                 background-color: rgb(0,0,0,0.5);
