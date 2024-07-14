@@ -98,6 +98,11 @@
                 background-color:rgb(0,0,0,0.5);
                 border:0;
             }
+            #title_image
+            {
+                width:100%;
+                height:cal(110px 100%);
+            }
         li{
                 background-color: rgb(0,0,0,0.5);
                 border-bottom:1px solid rgb(0,0,0,0.7);
