@@ -1,6 +1,5 @@
 
        *{
-            background-color:rgb(0,0,255,0.3);
             box-sizing:border-box;
             padding:0px;
             margin:0px;
@@ -14,29 +13,25 @@
         }
         
         .title{
-            grid-column:1;
+            grid-column:1/6;
             grid-row:1;
-            background-color:rgb(255,255,0,0.8);
-            border:thin solid goldenrod;
+            background-color:rgb(0,0,0,0.7);
         }
         .navi{
             grid-column:1/2;
             grid-row:2/7;
-            background-color:rgb(255,255,0,0.8);
-            border:thin solid green;
+            background-color:rgb(0,0,0,0.5);
         }
         .articles{
             grid-column:2/5;
             grid-row:2/7;
-            background-color:whitesmoke;
-            border:thin solid white;
+            background-color:rgb(0,0,0,0.5);
         }
         .addres{
-            border:1px solid yellow;
+            
             grid-column:1/5;
             grid-row:7;
-            background-color:rgb(255,255,0,0.8);
-            border:thin solid red;
+            background-color:rgb(0,0,0,0.5)
         }
         ul{
             
@@ -45,8 +40,8 @@
             margin:0;
         }
         li{
-            border-bottom:solid thin gray;
-            background-color:rgb(255,255,0,0.8);
+            border-bottom:1px solid rgb(0,0,0,0.7);
+            background-color:rgb(0,0,0,0.5);
             position:relative;
             width:100%;
             height:2em;
@@ -54,26 +49,66 @@
             padding-top:5px;
         }
         a{
-            background-color:transparent;
-            text-decoration:none;
-            color:red;
+            
+            text-decoration:transparent;
+            color:white;
 
         }
-        #title_image{
-            height:150px;
-            width:700px;
+        #title_font{
+            margin-top:30px;
+            color:aliceblue;
+            font-style:normal;
+            font-variant-caps: all-small-caps;
         }
 
         @media only screen and (max-width:600px)
         {
-            #title_image{
-                height:110px;
-                width:100%;
+            *{
+                background-color:none;
             }
-            .main{
-                margin:0;
+        
+                    
+        .main{
+                
+               margin:0;
                 grid-auto-rows:minmax(110px,auto);
             }
+        .title 
+            {
+                width:100%;
+                background-color:rgb(0,0,0,0.7);
+                border:0;
+                
+            }
+        .navi
+            {
+                background-color:rgb(0,0,0,0.5);
+                border:thin solid rgb(0,0,0,0.3);
+
+            }
+        .articles
+            {
+                background-color:rgb(0,0,0,0.5);
+                border:0;
+            }
+        .addres
+            {
+                background-color:rgb(0,0,0,0.5);
+                border:0;
+            }
+        li{
+                background-color: rgb(0,0,0,0.5);
+                border-bottom:1px solid rgb(0,0,0,0.7);
+            }
+        a{
+                background-color: transparent;
+                color:white;
+            }
+            i{
+                color:white;
+            }
         }
+
+
 
    
