@@ -100,8 +100,7 @@
             }
             #title_image
             {
-                width:100%;
-                height:cal(110px 100%);
+                height:110px;
             }
         li{
                 background-color: rgb(0,0,0,0.5);
