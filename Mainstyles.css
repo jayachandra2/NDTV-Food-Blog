@@ -116,12 +116,13 @@
                 font-variant-caps: all-small-caps;
             }
         .links{
-                padding-top: 10px;
+                
                 height:4em;     
                 background-color: rgb(0,0,0,0.5);
                 border-bottom:1px solid rgb(0,0,0,0.7);
             }
         a{
+                padding-top: 5px;
                 background-color: transparent;
                 color:white;
             }
