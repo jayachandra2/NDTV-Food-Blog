@@ -115,7 +115,7 @@
                 font-variant-caps: all-small-caps;
             }
         li{
-                width:fit-content;
+                width:110%;
                 background-color: rgb(0,0,0,0.5);
                 border-bottom:1px solid rgb(0,0,0,0.7);
             }
