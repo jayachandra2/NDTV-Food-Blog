@@ -92,6 +92,7 @@
             {
                 background-color:rgb(0,0,0,0.5);
                 border:0;
+                overflow-y:auto;
             }
         .addres
             {
