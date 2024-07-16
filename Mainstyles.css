@@ -133,9 +133,10 @@
                 background-color: transparent;
                 color:white;
             }
-        i{
+        #icon_styles{
                 color:white;
-            }
+                margin-left:15px;
+        }
             
         }
 
