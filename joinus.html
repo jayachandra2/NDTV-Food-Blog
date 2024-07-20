@@ -17,17 +17,24 @@
         body{
             background-color:rgba(0,0,0,0.5);
         }
+        .radio_element{
+            align-items:center;
+        }
 
     </style>
 </head>
 <body>
+    <h2 style="color:black;font-weight:bold;text-align:center;"> University Application Form</h2>
     <div class="container">
         
         <div><strong class="elements">Name&nbsp;:&nbsp;</strong><input class="elements" type="text" name="applicant_name" /></br>
         <strong class="elements">Email&nbsp;:&nbsp;</strong><input class="elements" type="email" name="applicant_email"/></br>
         <strong class="elements">Age&nbsp;:&nbsp;</strong><input style="margin-left:16px;" class="elements" type="number" name="applicant_age"/></br>
         <strong class="elements">Degree&nbsp;:&nbsp;</strong><select class="elements" style="color:black;"><option value="B.Sc Computers">B.Sc Computers</option><option value="B.A.literature">B.A.Literature</option><option value="B.Com Computers">B.Com Computers</option><option value="B.sc Honors">B.Sc Honors</option><option value="BCA">BCA</option></select></br>
-           
+        <strong class="elements">what are your goals ?</strong>
+        <input class="radio_element" type="radio" value="job" >Job</br>
+        <input class="radio_element" type="radio" value="fun" >Fun</br>
+        <input class="radio_element" type="radio" value="education">Education</br>
 
 
                     
