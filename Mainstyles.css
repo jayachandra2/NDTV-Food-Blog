@@ -33,6 +33,10 @@
             grid-row:7;
             background-color:rgb(0,0,0,0.5)
         }
+        .home_para{
+            font-size:medium;
+            color:azure;
+        }
         ul{
             text-align:center;
             list-style-type:none;
@@ -127,6 +131,10 @@
                 min-height: 4em;
                 background-color: rgb(0,0,0,0.5);
                 border-bottom:1px solid rgb(0,0,0,0.7);
+            }
+            .home_para{
+                font-size:small;
+                color:azure;
             }
         a{
                 padding-top: 5px;
