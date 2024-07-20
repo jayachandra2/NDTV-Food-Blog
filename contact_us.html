@@ -19,38 +19,48 @@
         body{
             background-color:rgba(0,0,0,0.5);
         }
+        .contact_link{
+            text-align:center;
+        }
+        .contact_address{
+            text-align:center;
+        }
         @media only screen and (max-width:600px)
         {
             .contact_para{
                 text-align:center;
                 margin-top:50px;
-                font-size:small;
-                color:azure;
-            }
-            address{
                 font-size:medium;
                 color:azure;
+            }
+            .contact_address{
+                font-size:medium;
+                color:azure;
+            }
+            .contact_link{
+                text-align:center;
             }
         }
     </style>
 </head>
 <body>
     <p class="contact_para">
-        If you want to join our team NDTVFoodBlog,please send us mail:</br>
-        <a href="Mailto:join@NDTVFoodBlog.com">Join@NDTVFoodBlog.com</a>
+        If you want to join our team NDTVFoodBlog,</br>
+        please send us mail:</br>
+        <a class="contact_link" href="Mailto:join@NDTVFoodBlog.com">Join@NDTVFoodBlog.com</a>
     </p>
     </br>
     <p class="contact_para">
         If you have any suggestions or reports please share with us at</br>
-        <a href="Mailto:help@NDTVFoodBlog.com">help@NDTVFoodBlog.com</a>
+        <a class="contact_link" href="Mailto:help@NDTVFoodBlog.com">help@NDTVFoodBlog.com</a>
     </p>
 </br>
 </br>
-    <address>
-        Flat No:371,
-        TM Nagar,
-        Andheri west,
-        Mumbai, India
+    <address class="contact_address">
+        Flat No:371,</br>
+        TM Nagar,</br>
+        Andheri west,</br>
+        Mumbai, India</br>
         pin : 400068
     </address>
 </body>
