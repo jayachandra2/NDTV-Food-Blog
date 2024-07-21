@@ -66,17 +66,19 @@
         <textarea style="height:6em;width:18em;">Comment here...</textarea></br>
 
         <input class="submit_bttn" type="submit" value="submit" />
-                 
+    </br>
+    <p id="output"></p>
         </div>
     </div>
     </form>
     <script>
+        let output = document.getElemendtById('output');
         const formToReset = document.getElementById('application_form');
         formToReset.addEventListner('submit',(e)=>{
             e.preventDefault();
             formToReset.reset();
-            
-        })
+            output.innerHTML += "The Form is Submitted Successfully "
+        });
         
     </script>
 </body>
