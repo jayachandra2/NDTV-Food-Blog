@@ -45,7 +45,7 @@
 </head>
 <body>
     <h2 style="color:black;font-weight:bold;text-align:center;"> University Application Form</h2>
-    <form action="javascript:alert('Hello,Your Application is Successfully Submitted...')" method="get" >
+    <form id="application_form" method="get" >
     <div class="container">
         
         <div><strong class="elements">Name&nbsp;:&nbsp;</strong><input class="text_elements" type="text" name="applicant_name" /></br>
@@ -70,5 +70,13 @@
         </div>
     </div>
     </form>
+    <script>
+        const formToReset = document.getElementById('application_form');
+        formToReset.addEventListner('submit',(e)=>{
+            e.preventDefault();
+            formToReset.reset();
+            alert("form is submitted successfully ...");
+        })
+    </script>
 </body>
 </html>
